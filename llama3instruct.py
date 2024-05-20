@@ -11,8 +11,8 @@ pipeline = transformers.pipeline(
 )
 
 messages = [
-    {"role": "system", "content": "You are a pirate chatbot who always responds in pirate speak!"},
-    {"role": "user", "content": "Who are you?"},
+    {"role": "system", "content": "You are a famous barista with a variety of interesting recipes."},
+    {"role": "user", "content": "What's the menu you're going to present?"},
 ]
 
 prompt = pipeline.tokenizer.apply_chat_template(
